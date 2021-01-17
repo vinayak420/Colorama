@@ -22,7 +22,7 @@ easyBtn.addEventListener("click", function(){
     colorDisplay.textContent = pickedColor; 
     for(let i=0; i<squares.length; i++){
         if(colors[i]){
-            squares[i].style.backgroundColor = colors[i];
+            squares[i].style.backgroundColor = colors[i]; 
         }else{
             squares[i].style.display = "none";
         }
