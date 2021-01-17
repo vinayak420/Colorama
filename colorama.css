@@ -1,0 +1,78 @@
+body{
+    background-color: #232323;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.square{
+    width: 30%;
+    background-color: blueviolet;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 12%;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+#container{
+    max-width: 600px;
+    margin: 2% auto;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    font-weight: normal;
+}
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    font-weight: normal;
+    font-size: 400%;
+}
+
+
+#stripe{
+    background-color: whitesmoke;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    background-color: steelblue;
+    color: whitesmoke;
+}
+
+.heading{
+    background-color: steelblue;
+    padding: 1%;
+    
+}
+button{
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+button:hover{
+    color: whitesmoke;
+    background-color: steelblue;
+}
+
+#message{
+    display: inline-block;
+    width: 10%;
+}
